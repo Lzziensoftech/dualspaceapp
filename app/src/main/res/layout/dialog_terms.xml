@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4.9">
+
+        <TextView
+            android:id="@+id/textViewHtml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"
+            android:padding="8dp"
+            android:text="I Understand That Copying Of Inappropriate content will not be tolerated. And I Cannot Clone Any Wrong Content"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".025"
+            android:padding="8dp"
+            android:text="I Read and agree to the Privacy Policy and Term And Condition of The App"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".025"
+            android:padding="8dp"
+            android:text="I Confirm that App Will Be use For Fair Purpose Only."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight=".025"
+            android:background="@color/black"
+            android:enabled="false"
+            android:fontFamily="@font/carter_one"
+            android:text="Accept And Continue"
+            android:textSize="20sp"
+            app:cornerRadius="0dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

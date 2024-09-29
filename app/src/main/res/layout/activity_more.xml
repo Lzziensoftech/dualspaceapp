@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adada"
+    android:orientation="vertical"
+    tools:context=".MoreActivity">
+
+    <!-- NativeAdView -->
+    <com.google.android.gms.ads.nativead.NativeAdView
+        android:id="@+id/native_ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <!-- MediaView for video or image content -->
+        <com.google.android.gms.ads.nativead.MediaView
+            android:id="@+id/ad_media"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center" />
+
+    </com.google.android.gms.ads.nativead.NativeAdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/contactUsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/carter_one"
+                android:text="Contact_Developer"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/cntct_developer"
+                app:iconGravity="textEnd"
+                app:iconPadding="30dp"
+                app:iconSize="60dp"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="3dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/joinTelegram"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/carter_one"
+                android:text="Multi Space Telegram Group"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/telegram"
+                app:iconGravity="textEnd"
+                app:iconPadding="30dp"
+                app:iconSize="50dp"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="3dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/privacyPolicyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/carter_one"
+                android:text="Privacy_Policy"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/pp"
+                app:iconGravity="textEnd"
+                app:iconPadding="90dp"
+                app:iconSize="52dp"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="3dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/promoteBtn"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/carter_one"
+                android:text="Promote_Now"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/promote"
+                app:iconGravity="textEnd"
+                app:iconPadding="90dp"
+                app:iconSize="55dp"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="3dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/rateUsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/carter_one"
+                android:text="Rate_Us"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/rateus"
+                app:iconGravity="textEnd"
+                app:iconPadding="100dp"
+                app:iconSize="90dp"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="3dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/shareUsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="6dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/carter_one"
+                android:text="Share_Us"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/share"
+                app:iconGravity="textEnd"
+                app:iconPadding="130dp"
+                app:iconSize="48dp"
+                app:strokeColor="#00BCD4"
+                app:strokeWidth="3dp" />
+
+            <LinearLayout
+                android:id="@+id/banner_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

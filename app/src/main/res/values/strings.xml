@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Clone Dual Apps</string>
+    <string name="company">abc .pvt.ltd</string>
+    <string name="app_icon" />
+
+    // Admob
+    <string name="admob_app_id">ca-app-pub-9807820378544612~9243745520</string>
+    //Admob Banner
+    <string name="admob_Banner_All">/21849154601,23201050440/Ad.Plus-APP-Banner</string>
+    <string name="admob_Banner_m2">/21849154601,23201050440/Ad.Plus-APP-Banner</string>
+    //Admob Interstertial
+    <string name="admob_Interstertial">/21849154601,23201050440/Ad.Plus-APP-Interstitial</string>
+    // Admob Native
+    <string name="admob_Native">/21849154601,23201050440/Ad.Plus-APP-Native</string>
+
+    // Facebook
+    <string name="facebook_app_id">413045218416754</string>
+    //Facebook Interstertial
+    <string name="facebook_Interstertial">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    // 413045218416754_413045401750069
+    //Facebook Banner
+    <string name="facebook_Banner">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    // 413045218416754_413045398416736
+
+    // Facebook Test Ad Unit Id
+    // IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID
+
+    <string name="share_app_and_invite_new_friends_thank_you">Share App And Invite New Friends. Thank You</string>
+    <string name="rate_us_and_provide_us_your_valuabel_support_thank_you">Rate Us and Provide Us Your Valuable Support. Thank You</string>
+    <string name="for_any_type_of_app_development_and_for_help_of_any_kinds_of_query_you_can_contact_with_us_anytime_24_7">For Any type of App Development and for Help of Any kinds of Query you can contact with us Anytime (24/7).</string>
+
+</resources>

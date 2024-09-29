@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457379745063",
+    "project_id": "multi-space-c5e17",
+    "storage_bucket": "multi-space-c5e17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457379745063:android:1d1334c2ba787908942d02",
+        "android_client_info": {
+          "package_name": "com.ajay.dual.space.dual.parallelspace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmZf7YF0kz0fC0Ua4-6SRNR-bqRzYI9UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
